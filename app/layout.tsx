@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "H-R-Wells Blog",
-  description: "Welcome to H-R-Wells Blog, your gateway to a world of insightful articles, creative explorations, and valuable resources. Join me, H-R-Wells, on a journey of discovery and growth, where technology and creativity converge to inspire your projects and passions",
+  description:
+    "Welcome to H-R-Wells Blog, your gateway to a world of insightful articles, creative explorations, and valuable resources. Join me, H-R-Wells, on a journey of discovery and growth, where technology and creativity converge to inspire your projects and passions",
 };
 
 export default function RootLayout({

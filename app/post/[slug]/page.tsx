@@ -12,11 +12,7 @@ async function getData(slug: string) {
   return data;
 }
 
-export default async function Page({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default async function Page({ params }: { params: { slug: string } }) {
   const data = (await getData(params.slug)) as Post;
 
   const PortableTextComponent = {
